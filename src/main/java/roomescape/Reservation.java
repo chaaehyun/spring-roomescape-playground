@@ -10,9 +10,6 @@ public class Reservation {
     private LocalDate date;
     private LocalTime time;
 
-//    private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-//    private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm");
-
 
     public Reservation() {
     }
@@ -23,13 +20,6 @@ public class Reservation {
         this.date = date;
         this.time =time;
     }
-
-//    public Reservation(Long id, String name, String dateString, String timeString) {
-//        this.id = id;
-//        this.name = name;
-//        this.date = LocalDate.parse(dateString, DATE_FORMATTER);
-//        this.time = LocalTime.parse(timeString, TIME_FORMATTER);
-//    }
 
     public Long getId() {
         return id;
